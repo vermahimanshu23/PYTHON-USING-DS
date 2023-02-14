@@ -1,6 +1,6 @@
 import colorsys
 from turtle import*
-speed(0)
+
 pensize(2)
 h=0.5
 
