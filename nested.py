@@ -10,7 +10,7 @@ for i in range(side):
         fd(50)
         for i in range(side):
             fd(25)
-            lt(360/side)
+            lt(360/4)
         rt(360/side)
     end_fill()
     lt(360/side)
