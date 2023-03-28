@@ -28,14 +28,14 @@ def update():
     if box.colliderect(box1):
         bvx = -bvx
         b1vx = -b1vx
-        sounds.exploring.play()
-    # if box2.colliderect(box3):
-    #     b2vx = +b2vx
-    #     b3vx = -b3vx
-    # if box2.bottom < 50:
-    #     b2vx = -b2vx
-    # if box3.top < 500:
-    #     b3vx = +b3vx
+        sounds.cling.play()
+    if box2.colliderect(box3):
+        b2vx = +b2vx
+        b3vx = -b3vx
+    if box2.bottom < 50:
+        b2vx = -b2vx
+    if box3.top < 500:
+        b3vx = +b3vx
         
     if box.left < 0:
          bvx = -bvx

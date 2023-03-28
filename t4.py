@@ -1,7 +1,7 @@
 from turtle import*
 side=8 
 si =3
-fillcolor("yellow")
+fillcolor("blue")
 for i in range(side):
     fd(100)
     begin_fill()
